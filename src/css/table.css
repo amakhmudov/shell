@@ -1,0 +1,50 @@
+.table-overflow{
+  @apply overflow-hidden overflow-x-auto;
+}
+
+.table-long{
+  @apply table-auto text-sm;
+
+  thead{
+    @apply bg-accent;
+
+    tr:first-child{
+      th:first-child{
+        @apply bg-accent;
+      }
+    }
+
+    th{
+      @apply w-full p-1 text-white text-right whitespace-nowrap;
+      
+      &:first-child{
+        @apply sticky left-0 z-20 text-left bg-white;
+      }
+    }
+  }
+
+  tbody{
+    tr:first-child,
+    tr:nth-child(2){
+      td:first-child{
+        @apply bg-accent-light;
+      }
+    }
+
+    td{
+      @apply p-1 text-black text-center text-right whitespace-nowrap;
+
+      .cell-item{
+        @apply block min-w-[128px] whitespace-normal font-normal;
+      }
+
+      input{
+        @apply w-full p-1 text-right text-black ring-1 block;
+      }
+
+      &:first-child{
+        @apply sticky left-0 bg-white text-left;
+      }
+    }
+  }
+}

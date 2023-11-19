@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200,300,400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+</head>
+
+<body>
+  <div class="overflow-x-auto">
+    <table class="table-long">
+      <thead>
+        <tr>
+          <th class="uppercase tracking-wide">CB2 E02 Royal Pearls, Nigeria</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>2022</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr class="font-semibold bg-accent-light">
+          <td class="text-black font-bold text-base !text-left">Top Products</td>
+          <td>FUFU FLOUR</td>
+          <td>FUFU FLOUR</td>
+          <td>HQCF</td>
+          <td>HQCF</td>
+          <td>BEANS FLOUR</td>
+          <td>PLANTAIN FLOUR</td>
+          <td>YAM FLOUR</td>
+          <td>ALL</td>
+        </tr>
+
+        <tr class="font-semibold bg-accent-light">
+          <td class="text-black font-bold text-base !text-left">Selling Unit</td>
+          <td><span class="cell-item">FUFU FLOUR in pouches 24x500g and 12x1000g (12kg)</span></td>
+          <td><span class="cell-item">FUFU FLOUR in bags 1x5kg and 1x10kg (avg = 7.5kg)</span></td>
+          <td><span class="cell-item">HQCF in pouches 24x500g and 12x1000g (12kg)</span></td>
+          <td><span class="cell-item">HQCF in bags 1x25kg and 1x50kg (avg = 37.5kg)</span></td>
+          <td><span class="cell-item">BEANS FLOUR in pouches (500g - 3kg) in carton box (12kg)</span></td>
+          <td><span class="cell-item">PLANTAIN FLOUR in pouches (500g-1000g) and bags (5-10kg) (avg-10.9kg)</span></td>
+          <td><span class="cell-item">YAM FLOUR in pouches (500g - 3kg) in carton box (12kg)</span></td>
+          <td><span class="cell-item"></span></td>
+        </tr>
+
+        <tr class="border-b">
+          <td></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td><strong class="font-semibold">NAIRA</strong></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Price of Selling Unit</td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td>
+            <strong class="font-semibold">per ton</strong>
+            <input type="text" value="20400">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Weight of Selling Unit (in kg)</td>
+          <td>
+            <input type="text" value="12">
+          </td>
+          <td>
+            <input type="text" value="7.5">
+          </td>
+          <td>
+            <input type="text" value="12">
+          </td>
+          <td>
+            <input type="text" value="37.5">
+          </td>
+          <td>
+            <input type="text" value="12">
+          </td>
+          <td>
+            <input type="text" value="10.90">
+          </td>
+          <td>
+            <input type="text" value="12">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Selling price per ton (delivered)</td>
+          <td class="!text-right">1&nbsp;700&nbsp;000</td>
+          <td class="!text-right">1&nbsp;600&nbsp;000</td>
+          <td class="!text-right">1&nbsp;000&nbsp;000</td>
+          <td class="!text-right">520&nbsp;000</td>
+          <td class="!text-right">1&nbsp;298&nbsp;750</td>
+          <td class="!text-right">892&nbsp;110</td>
+          <td class="!text-right">1&nbsp;308&nbsp;333</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">VC4 Delivery cost of Selling unit</td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="-">
+              <span>0%</span>
+            </div>
+          </td>
+          <td>0</td>
+        </tr>
+
+        <tr class="font-semibold border-b">
+          <td class="!text-left">Price (EXW)</td>
+          <td class="!text-right">1&nbsp;700&nbsp;000</td>
+          <td class="!text-right">1&nbsp;600&nbsp;000</td>
+          <td class="!text-right">1&nbsp;000&nbsp;000</td>
+          <td class="!text-right">520&nbsp;000</td>
+          <td class="!text-right">1&nbsp;298&nbsp;750</td>
+          <td class="!text-right">892&nbsp;110</td>
+          <td class="!text-right">1&nbsp;308&nbsp;333</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">P(RM, delivered to factory)</td>
+          <td>
+            <input type="text" value="81500">
+          </td>
+          <td>
+            <input type="text" value="81500">
+          </td>
+          <td>
+            <input type="text" value="81500">
+          </td>
+          <td>
+            <input type="text" value="81500">
+          </td>
+          <td>
+            <input type="text" value="236640">
+          </td>
+          <td>
+            <input type="text" value="42160">
+          </td>
+          <td>
+            <input type="text" value="80240">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">PR</td>
+          <td>
+            <input type="text" value="4.00">
+          </td>
+          <td>
+            <input type="text" value="4.00">
+          </td>
+          <td>
+            <input type="text" value="3.50">
+          </td>
+          <td>
+            <input type="text" value="3.50">
+          </td>
+          <td>
+            <input type="text" value="1.19">
+          </td>
+          <td>
+            <input type="text" value="5.53">
+          </td>
+          <td>
+            <input type="text" value="3.11">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Other ingredients</td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td>
+            <input type="text" value="">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left"><strong class="font-semibold">VC1</strong></td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">326.000</strong>
+              <span>39%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">326.000</strong>
+              <span>79%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">285.250</strong>
+              <span>36%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">285.250</strong>
+              <span>79%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">281.602</strong>
+              <span>39%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">233.145</strong>
+              <span>37%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">249.546</strong>
+              <span>36%</span>
+            </div>
+          </td>
+          <td>13&nbsp;777&nbsp;216</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Temporary labor cost</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="text" value="839800">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Utility costs (electricity, fuel, etc.)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="text" value="1043595">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Spare parts bought</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="text" value="569976">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Consumables (detergents, uniforms, etc.)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="text" value="119952">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Other processing costs</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="text" value="1145800">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">VC share of total</td>
+          <td>
+            <input type="text" value="14%">
+          </td>
+          <td>
+            <input type="text" value="2%">
+          </td>
+          <td>
+            <input type="text" value="18%">
+          </td>
+          <td>
+            <input type="text" value="28%">
+          </td>
+          <td>
+            <input type="text" value="11%">
+          </td>
+          <td>
+            <input type="text" value="15%">
+          </td>
+          <td>
+            <input type="text" value="12%">
+          </td>
+          <td>3&nbsp;719&nbsp;124</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left"><strong class="font-semibold">VC2 (calculated by Aisha)</strong></td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="63821">
+              <span>8%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="63821">
+              <span>15%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="63821">
+              <span>8%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="63821">
+              <span>18%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="105305">
+              <span>15%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="77196">
+              <span>12%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex items-center space-x-1">
+              <input type="text" value="106263">
+              <span>15%</span>
+            </div>
+          </td>
+          <td>3&nbsp;718&nbsp;920</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Cost of packaging material of 1 selling unit</td>
+          <td>
+            <input type="text" value="5148.28">
+          </td>
+          <td>
+            <input type="text" value="80.00">
+          </td>
+          <td>
+            <input type="text" value="5150.00">
+          </td>
+          <td>
+            <input type="text" value="275.00">
+          </td>
+          <td>
+            <input type="text" value="4000.00">
+          </td>
+          <td>
+            <input type="text" value="3300.00">
+          </td>
+          <td>
+            <input type="text" value="3720.00">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Number of selling units per ton</td>
+          <td>83</td>
+          <td>133</td>
+          <td>83</td>
+          <td>27</td>
+          <td>83</td>
+          <td>92</td>
+          <td>83</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left"><strong class="font-semibold">VC3</strong></td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">429.023</strong>
+              <span>51%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">10.667</strong>
+              <span>3%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">429.167</strong>
+              <span>55%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">7.333</strong>
+              <span>2%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">333.333</strong>
+              <span>46%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">302.752</strong>
+              <span>48%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">310.000</strong>
+              <span>45%</span>
+            </div>
+          </td>
+          <td>10&nbsp;902&nbsp;694</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FG losses %</td>
+          <td>
+            <input type="text" value="3.0%">
+          </td>
+          <td>
+            <input type="text" value="3.0%">
+          </td>
+          <td>
+            <input type="text" value="1.0%">
+          </td>
+          <td>
+            <input type="text" value="1.0%">
+          </td>
+          <td>
+            <input type="text" value="0.5%">
+          </td>
+          <td>
+            <input type="text" value="2.0%">
+          </td>
+          <td>
+            <input type="text" value="3.0%">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr class="border-b">
+          <td class="!text-left"><strong class="font-semibold">VC</strong></td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">843.110</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">412.503</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">786.020</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">359.969</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">723.841</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">625.355</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>
+            <div class="flex space-x-1 justify-end">
+              <strong class="font-semibold">685.783</strong>
+              <span>100%</span>
+            </div>
+          </td>
+          <td>26&nbsp;698&nbsp;452</td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">Margin</td>
+          <td>856.590</td>
+          <td>1.187.497</td>
+          <td>213.980</td>
+          <td>160.031</td>
+          <td>574.909</td>
+          <td>266.755</td>
+          <td>622.550</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Margin %</td>
+          <td>            
+            <input type="text" value="50%" class="bg-success">
+          </td>
+          <td>            
+            <input type="text" value="74%" class="bg-success">
+          </td>
+          <td>            
+            <input type="text" value="21%" class="bg-warning">
+          </td>
+          <td>            
+            <input type="text" value="31%" class="bg-success">
+          </td>
+          <td>            
+            <input type="text" value="44%" class="bg-success">
+          </td>
+          <td>            
+            <input type="text" value="50%" class="bg-warning">
+          </td>
+          <td>            
+            <input type="text" value="48%" class="bg-success">
+          </td>
+          <td>            
+            <input type="text" value="39%" class="bg-success">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Quantity sold q(ton)</td>
+          <td>            
+            <input type="text" value="7.0 ton">
+          </td>
+          <td>            
+            <input type="text" value="0.9 ton">
+          </td>
+          <td>            
+            <input type="text" value="8.9 ton">
+          </td>
+          <td>            
+            <input type="text" value="14.0 ton">
+          </td>
+          <td>            
+            <input type="text" value="5.4 ton">
+          </td>
+          <td>            
+            <input type="text" value="7.3 ton">
+          </td>
+          <td>            
+            <input type="text" value="5.9 ton">
+          </td>
+          <td><strong class="font-semibold">49 ton</strong></td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">Sales</td>
+          <td>11.832.000</td>
+          <td>1.440.000</td>
+          <td>8.880.000</td>
+          <td>7.280.000</td>
+          <td>6.948.313</td>
+          <td>6.512.404</td>
+          <td>7.758.417</td>
+          <td>50.651.133</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Sales (EXW)</td>
+          <td>11.832.000</td>
+          <td>1.440.000</td>
+          <td>8.880.000</td>
+          <td>7.280.000</td>
+          <td>6.948.313</td>
+          <td>6.512.404</td>
+          <td>7.758.417</td>
+          <td>50.651.133</td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">Contribution</td>
+          <td>5.961.866</td>
+          <td>1.068.748</td>
+          <td>1.900.138</td>
+          <td>2.240.437</td>
+          <td>3.075.761</td>
+          <td>1.947.314</td>
+          <td>3.691.722</td>
+          <td>19.885.985</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Contribution %</td>
+          <td>            
+            <input type="text" value="30%" class="bg-success/70">
+          </td>
+          <td>            
+            <input type="text" value="5%" class="!text-white bg-accent/70">
+          </td>
+          <td>            
+            <input type="text" value="10%" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="11%" class="bg-warning/50">
+          </td>
+          <td>            
+            <input type="text" value="15%" class="bg-success/50">
+          </td>
+          <td>            
+            <input type="text" value="10%" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="19%" class="bg-success/50">
+          </td>
+          <td>            
+            100%
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FC1. Depreciation</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>            
+            <input type="text" value="1.156.000">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FC2. Interest & Banking costs</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>            
+            <input type="text" value="42.840">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FC3. Salaries of Permanent Rowkers (excl. Seasonal labor)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>            
+            <input type="text" value="1.440.240">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FC3. Al lOther Overhead Costs</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>            
+            <input type="text" value="258.400">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">FC4. Marketing Costs</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>            
+            <input type="text" value="144.160">
+          </td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">FC Fixed Costs</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>3.041.640</td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">Profit before tax</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+          <td></td>
+          <td>16.844.345</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Profitibility %</td>
+          <td colspan="7" class="!text-left !text-accent font-semibold">what is the bottleneck in the process?</td>
+          <td>
+            <input type="text" value="33%" class="bg-success">
+          </td>
+        </tr>
+
+        <tr>
+          <td class="!text-left font-semibold">Bottleneck in production</td>
+          <td>Fermentation</td>
+          <td>Fermentation</td>
+          <td>Drying</td>
+          <td>Drying</td>
+          <td>Dehulling</td>
+          <td>Peeling & slicing</td>
+          <td>Peeling & milling</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Output capacity per hour in kg</td>
+          <td>            
+            <input type="text" value="31.3" class="bg-success/70">
+          </td>
+          <td>            
+            <input type="text" value="31.3" class="!text-white bg-accent/70">
+          </td>
+          <td>            
+            <input type="text" value="31.3" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="31.3" class="bg-warning/50">
+          </td>
+          <td>            
+            <input type="text" value="10.0000" class="bg-success/50">
+          </td>
+          <td>            
+            <input type="text" value="10.0000" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="100.0" class="bg-success/50">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Operating hours per day</td>
+          <td>            
+            <input type="text" value="22" class="bg-success/70">
+          </td>
+          <td>            
+            <input type="text" value="22" class="!text-white bg-accent/70">
+          </td>
+          <td>            
+            <input type="text" value="22" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="22" class="bg-warning/50">
+          </td>
+          <td>            
+            <input type="text" value="24" class="bg-success/50">
+          </td>
+          <td>            
+            <input type="text" value="24" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="24" class="bg-success/50">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Working days per year</td>
+          <td>            
+            <input type="text" value="300" class="bg-success/70">
+          </td>
+          <td>            
+            <input type="text" value="300" class="!text-white bg-accent/70">
+          </td>
+          <td>            
+            <input type="text" value="300" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="300" class="bg-warning/50">
+          </td>
+          <td>            
+            <input type="text" value="360" class="bg-success/50">
+          </td>
+          <td>            
+            <input type="text" value="360" class="bg-warning/70">
+          </td>
+          <td>            
+            <input type="text" value="360" class="bg-success/50">
+          </td>
+          <td></td>
+        </tr>
+
+        <tr class="font-semibold">
+          <td class="!text-left">Max output capacity per year</td>
+          <td>206 ton/yr</td>
+          <td>206 ton/yr</td>
+          <td>206 ton/yr</td>
+          <td>206 ton/yr</td>
+          <td>86 ton/yr</td>
+          <td>86 ton/yr</td>
+          <td>864 ton/yr</td>
+          <td>cabinet dryer</td>
+        </tr>
+
+        <tr>
+          <td class="!text-left">Capacity utilization %</td>
+          <td>            
+            <input type="text" value="3%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="0%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="4%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="7%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="6%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="8%" class="!text-white bg-accent">
+          </td>
+          <td>            
+            <input type="text" value="1%" class="!text-white bg-accent">
+          </td>
+          <td>
+            <input type="text" value="26%" class="!text-white bg-accent">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
