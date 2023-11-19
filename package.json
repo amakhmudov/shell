@@ -1,7 +1,7 @@
 {
-  "name": "clara",
+  "name": "shell",
   "version": "1.0.0",
-  "description": "clara",
+  "description": "shell",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./tailwind.css -o ./src/css/main.css --postcss --watch",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amakhmudov/clara.git"
+    "url": "https://github.com/amakhmudov/shell"
   },
   "author": "Alisher Makhmudov",
   "license": "ISC",
